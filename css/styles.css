@@ -24,6 +24,14 @@ html, body {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
 }
 
+.bg-light-grey {
+    background-color: whitesmoke;
+}
+
+.red-color {
+    color: #CC112C;
+}
+
 /*====== Navbar =======*/
 
 .navbar {
@@ -49,6 +57,15 @@ html, body {
     color: #CC112C;
 }
 
+.navbar-toggler {
+    padding: 0;
+    line-height: 0;
+    height: 1em !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
 
 /*====== Hero Carousel =======*/
 .hero-heading-font {
@@ -96,4 +113,40 @@ html, body {
 .hvr-underline-from-center:active:before {
     left: 0;
     right: 0;
+}
+
+
+/*====== Mobiles ======*/
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    
+    .navbar {
+        padding: 0rem 0rem;
+    }
+
+    .logo {
+        padding: 1.5rem 2rem;
+    }
+
+    .navbar-toggler {
+        padding-right: 2rem;
+    }
+
+    .navbar-nav {
+        padding-top: 1rem;
+        width: 100vw;
+        background-color: #F2F2F2;
+    }
+
+    .nav-item .nav-link {
+        padding: 1rem 0rem;
+        color: #540F16;
+    }
+
+    hr {
+        color: white;
+    }
 }
