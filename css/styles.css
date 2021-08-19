@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.box-shadow {
+    box-shadow: 0px 5px 5px rgb(0 0 0 / 20%);
+}
+
+.box-shadow-light {
+    box-shadow: 0px 5px 5px rgb(0 0 0 / 10%);
+}
+
+.box-shadow-very-light {
+    box-shadow: 0px 5px 5px rgb(0 0 0 / 5%);
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+}
+
+/*====== Navbar =======*/
+
+.navbar {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+    padding: 1rem 5rem;
+    color: #CC112C;
+    background: #E5E5E5;
+}
+
+.navbar.navbar-bg {
+    background: #F2F2F2; 
+}
+
+.nav-item {
+    padding: 0 1rem;
+}
+
+.nav-item .nav-link {
+    color: #CC112C;
+}
+
+
+/*====== Hero Carousel =======*/
+.hero-heading-font {
+    font-size: 64px;
+}
+
+.hero-text-font {
+    font-size: 26px;
+}
+
+/*====== Hover Effect ======*/
+.hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #CC112C;
+    height: 4px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-center:hover:before, 
+.hvr-underline-from-center:focus:before, 
+.hvr-underline-from-center:active:before {
+    left: 0;
+    right: 0;
+}
