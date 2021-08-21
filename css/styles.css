@@ -14,14 +14,6 @@ html, body {
     box-shadow: 0px 5px 5px rgb(0 0 0 / 20%);
 }
 
-.box-shadow-light {
-    box-shadow: 0px 5px 5px rgb(0 0 0 / 10%);
-}
-
-.box-shadow-very-light {
-    box-shadow: 0px 5px 5px rgb(0 0 0 / 5%);
-}
-
 .text-shadow {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
 }
@@ -90,12 +82,14 @@ html, body {
     -ms-transition: all 0.6s ease-out;
     transition: all 0.6s ease-out;
     padding: 1rem 5rem;
-    color: #CC112C;
-    background: #E5E5E5;
+    transition: background-color 0.4s ease-out;
 }
 
-.navbar.navbar-bg {
-    background: #F2F2F2; 
+.navbar.scrolled {
+    background-color: #F2F2F2;
+    opacity: 0.85;
+    color: #CC112C !important;
+    box-shadow: 0px 5px 5px rgb(0 0 0 / 20%);
 }
 
 .nav-item {
@@ -103,7 +97,11 @@ html, body {
 }
 
 .nav-item .nav-link {
-    color: #CC112C;
+    color: #FFF;
+}
+
+.navbar.scrolled a {
+    color: #CC112C !important;
 }
 
 .navbar-toggler {
@@ -120,7 +118,7 @@ html, body {
 
 #hero {
     padding-top: 5rem;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background: url('/assets/img/bg-banner.png') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -130,9 +128,9 @@ html, body {
     background-position: center;
 }
 
-#hero .image img {
-    height: 617px;
-    width: auto;
+#hero .hero-image img {
+    height: auto;
+    width: 509px;
     overflow-y: hidden;
 }
 
