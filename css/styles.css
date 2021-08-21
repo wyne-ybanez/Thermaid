@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
 html, body {
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
@@ -30,6 +32,10 @@ html, body {
 
 .red-color {
     color: #CC112C;
+}
+
+.fw-lighter { 
+    font-weight: 200!important;
 }
 
 /*====== Navbar =======*/
@@ -67,13 +73,58 @@ html, body {
     box-shadow: none;
 }
 
-/*====== Hero Carousel =======*/
-.hero-heading-font {
-    font-size: 64px;
+/*====== Hero Section =======*/
+
+#hero {
+    padding-top: 5rem;
+    height: 100vh;
+    width: 100%;
+    background: url('/assets/img/bg-banner.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
 }
 
-.hero-text-font {
-    font-size: 26px;
+#hero .image img {
+    height: 88.5vh;
+    width: auto;
+    overflow-y: hidden;
+}
+
+.hero-logo img {
+    height: 65%;
+    width: 65%;
+}
+
+.hero-heading {
+    font-size: 3.5rem;
+}
+
+.hero-text {
+    padding: 10rem 0 0 5rem;
+}
+
+/*= Hero Carousel =*/
+
+.carousel-indicators {
+    position: fixed;
+    margin-left: 0;
+    right: auto;
+    left: 5.5rem;
+    padding-bottom: 6rem;
+}
+
+.carousel-indicators [data-bs-target]{
+    height: 5px;
+    width: 5px;
+    background-color: transparent;
+    border: 1.8px solid orange;
+}
+
+.carousel-indicators .active {
+    background-color: orange;
 }
 
 /*====== Hover Effect ======*/

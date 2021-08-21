@@ -8,6 +8,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/6abe4f8110.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">
     <!-- Stylesheet -->
     <link href="css/styles.css" rel="stylesheet">
     <title>ThermAid</title>
@@ -15,10 +19,10 @@
 <body>
     <!-- Navbar -->
     <header>
-        <div class="container-fluid">
+        <div class="header container-fluid">
             <nav class="navbar navbar-expand-lg fixed-top box-shadow d-flex flex-row">
                 <a class="logo" href="index.html">
-                    <img src="assets/img/nav-logo.png" alt="ThermAid Navbar Logo">
+                    <img src="assets/img/logo-red.png" alt="ThermAid Logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon">
@@ -47,6 +51,63 @@
             </nav>
         </div>
     </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="hero-text">
+                        <div class="hero-logo">
+                            <img src="assets/img/logo-white-1.5x.png" alt="ThermAid Logo">
+                        </div>
+                        <h1 class="text-light pt-4 fw-lighter hero-heading">
+                            Heat wraps for effective pain relief
+                        </h1>
+
+                        <!-- Carousel -->
+                        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <p class="text-light">
+                                        ThermAid® heat wraps for more targeted pain relief. Clinical <br>
+                                        trials show that ThermAid® heat wraps are more effective <br>
+                                        than the maximum daily dosage of either Paracetamol or <br>
+                                        Ibuprofen for long lasting pain relief.
+                                    </p>
+                                </div>
+                                <div class="carousel-item">
+                                    <p class="text-light">
+                                        ThermAid® heat wraps provides therapeutic muscle <br>
+                                        penetrating heat and long lasting pain relief for up to 16 <br> 
+                                        hours. That’s up to 8 hours while you wear the heat wrap <br> 
+                                        plus an additional 8 hours of pain relief after you remove it.
+                                    </p>
+                                </div>
+                                <div class="carousel-item">
+                                    <p class="text-light">
+                                        ThermAid® heat wraps uses Patented Heat Cell Technology <br>
+                                        for deep penetrating heat.
+                                    </p>
+                                </div>
+                                <div class="carousel-indicators">
+                                    <button class="rounded-circle active mx-1" type="radio" data-bs-target="#carousel" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+                                    <button class="rounded-circle mx-1" type="radio" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button class="rounded-circle mx-1" type="radio" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-0 d-none d-sm-none d-md-block">
+                    <div class="image float-end">
+                        <img src="assets/img/man-golf.png" alt="Healthy Man playing golf">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <!-- Bootstrap5 JS Bundle & Popper -->
