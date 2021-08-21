@@ -30,12 +30,55 @@ html, body {
     background-color: whitesmoke;
 }
 
-.red-color {
+.text-red {
     color: #CC112C;
 }
 
 .fw-lighter { 
     font-weight: 200!important;
+}
+
+.heading-padding {
+    padding-top: 8rem;
+}
+
+/*====== Hover Effect ======*/
+.hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #CC112C;
+    height: 4px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-center:hover:before, 
+.hvr-underline-from-center:focus:before, 
+.hvr-underline-from-center:active:before {
+    left: 0;
+    right: 0;
 }
 
 /*====== Navbar =======*/
@@ -88,7 +131,7 @@ html, body {
 }
 
 #hero .image img {
-    height: 88.5vh;
+    height: 617px;
     width: auto;
     overflow-y: hidden;
 }
@@ -99,7 +142,7 @@ html, body {
 }
 
 .hero-heading {
-    font-size: 3.5rem;
+    font-size: 3.4rem;
 }
 
 .hero-text {
@@ -108,17 +151,19 @@ html, body {
 
 /*= Hero Carousel =*/
 
+.carousel-item {
+    height: 125px;
+}
+
 .carousel-indicators {
-    position: fixed;
-    margin-left: 0;
     right: auto;
-    left: 5.5rem;
-    padding-bottom: 6rem;
+    margin: 0 0 0 0;
+    transform: translateX(-4px);
 }
 
 .carousel-indicators [data-bs-target]{
-    height: 5px;
-    width: 5px;
+    height: 4px;
+    width: 4.5px;
     background-color: transparent;
     border: 1.8px solid orange;
 }
@@ -127,44 +172,21 @@ html, body {
     background-color: orange;
 }
 
-/*====== Hover Effect ======*/
-.hvr-underline-from-center {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    position: relative;
-    overflow: hidden;
+/*====== About Section ======*/
+
+#About-section {
+    height: 100%;
 }
 
-.hvr-underline-from-center:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    left: 51%;
-    right: 51%;
-    bottom: 0;
-    background: #CC112C;
-    height: 4px;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    -webkit-transition-property: left, right;
-    transition-property: left, right;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
+.heat-wave-img {
+    padding-top: 6rem;
 }
 
-.hvr-underline-from-center:hover:before, 
-.hvr-underline-from-center:focus:before, 
-.hvr-underline-from-center:active:before {
-    left: 0;
-    right: 0;
+.back-pain-img {
+    left: 22rem;
+    padding-top: 2rem;
 }
+
 
 
 /*====== Mobiles ======*/
