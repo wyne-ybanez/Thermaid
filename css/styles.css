@@ -176,6 +176,7 @@ html, body {
 
 #About-section {
     height: 100%;
+    padding-bottom: 14rem;
 }
 
 .heat-wave-img {
@@ -187,7 +188,22 @@ html, body {
     padding-top: 2rem;
 }
 
+/*====== Footer Section ======*/
 
+footer .col {
+    height: 100px;
+    background-color: #9D2C29;
+    padding: 0 5rem;
+}
+
+.footer p,
+.footer .links {
+    padding-top: 2.3rem;
+}
+
+.angel-logo {
+    padding: 2rem 2rem;
+}
 
 /*====== Mobiles ======*/
 
