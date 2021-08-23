@@ -186,6 +186,37 @@ html, body {
     padding-top: 2rem;
 }
 
+.tooltips,
+.tooltips img {
+    position: absolute;
+    z-index: 999999;
+} 
+
+.tooltip-top img { 
+    bottom: 20.8rem;
+    left: 32.2rem;
+}
+
+.tooltip-left img {
+    bottom: 10.3rem;
+    left: 27.8rem;
+}
+
+.tooltip-right img {
+    bottom: 10.2rem;
+    left: 39rem;
+}
+
+.tooltip-middle img {
+    bottom: 4.5rem;
+    left: 34rem;
+}
+
+.tooltip-bottom img {
+    top: 0.6rem;
+    left: 34rem;
+}
+
 /*====== Footer Section ======*/
 
 footer .col {

@@ -21,7 +21,7 @@ navbarToggler.addEventListener('click', (e) => {
     }
 });
 
-function mobileNavBar(viewport) {
+function NavBarChange(viewport) {
     if (viewport < 480) { // If mobile media query matches
         navbar.classList.add('scrolled');
         navlinks.classList.add('scrolled');
@@ -47,6 +47,6 @@ function mobileNavBar(viewport) {
     }
 }
 
-mobileNavBar(viewport) 
-// mobile_viewport.addListener(mobileNavBar)
+NavBarChange(viewport) 
+
 
