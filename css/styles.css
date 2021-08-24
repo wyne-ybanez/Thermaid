@@ -205,6 +205,10 @@ span .break {
     overflow-y: hidden;
 }
 
+.about-images {
+    max-height: 700px;
+}
+
 .heat-wave-img {
     padding-top: 6rem;
 }
@@ -285,6 +289,14 @@ span .break {
     transform: translate(-1px, -1rem);
     padding-left: 3.8rem;
     padding-bottom: 1.5rem;
+}
+
+.tooltip-caption-bottom {
+    transform: translate(-3.5rem, 3.75rem);
+}
+
+.hover-img.bottom{
+    transform: translateY(3rem);
 }
 
 /* Left Tooltip */
