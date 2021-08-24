@@ -518,3 +518,55 @@ footer .col {
         margin-top: 2rem;
     }
 }
+
+/* Large Screens */
+@media (min-width:1440px) {
+
+    #About-section {
+        padding-bottom: 3rem;
+    }
+
+    .about-images {
+        max-height: 1000px;
+    }
+
+    .back-pain-img {
+        position: relative;
+        left: -2%;
+        transform: translate(-88%);
+    }
+
+    .heat-wave-img {
+        transform: translate(30%, -12%);
+    }
+
+    .tooltip-top { 
+        position: inherit;
+        bottom: 29.5rem;
+        left: 4.5rem;
+    }
+    
+    .tooltip-left {
+        position: inherit;
+        bottom: 18.7rem;
+        right: 3.2rem;
+    }
+    
+    .tooltip-right {
+        position: inherit;
+        bottom: 18.7rem;
+        left: 5rem;
+    }
+    
+    .tooltip-middle {
+        position: inherit;
+        bottom: 13.5rem;
+        right: 3.8rem;
+    }
+    
+    .tooltip-bottom {
+        position: inherit;
+        bottom: 5rem;
+        right: 7rem;
+    }  
+}
