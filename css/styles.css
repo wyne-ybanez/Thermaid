@@ -254,23 +254,27 @@ html, body {
     height: 150px;
 }
 
+.tooltip-caption-left p { 
+    padding-left: 1rem;
+ }
+
 /* Top Tooltip */
 
 .tooltip-caption-top {
-    height: 125px;
-    width: 300px;
-    transform: translate(-3rem, 0.5rem);
+    height: 120px;
+    width: 315px;
+    transform: translate(-3.5rem, 0.7rem);
 }
 
 .caption-title-top {
     padding-top: 1rem;
-    padding-left: 3rem;
+    padding-left: 3.8rem;
     font-weight: 500;
 }
 
 .caption-text-top {
     transform: translate(-1px, -1rem);
-    padding-left: 3rem;
+    padding-left: 3.8rem;
     padding-bottom: 1.5rem;
 }
 
@@ -281,22 +285,49 @@ html, body {
 }
 
 .tooltip-caption-left { 
-    height: 200px;
     width: 380px;
     transform: translateY(10px);
-}
-
-.tooltip-caption-left p{ 
-   padding-left: 1rem;
-}
-
-.caption-title-left {
-    padding-top: 1rem;
 }
 
 .hover-img.left{
     transform: translateX(-60px);
 }
+
+/* Right Tooltip */
+
+.tooltip-caption-right { 
+    width: auto; 
+    padding-left: 5rem;
+    transform:translate(-165px, 70px);
+}
+
+.tooltip-caption-right p {
+    height: auto;
+    width: 250px;
+    padding-right: 0.5rem;
+}
+
+.hover-img.right{
+    transform: translate(-100px,60px);
+}
+
+/* Middle Tooltip */
+
+.tooltip-caption-middle {
+    padding-left: 2rem;
+    padding-right: 3.5rem;
+    transform: translate(50px, 100px);
+}
+
+.tooltip-caption-middle p {
+    height: auto;
+    width: 250px;
+}
+
+.hover-img.middle {
+    transform: translate(-20px,80px);
+} 
+
 
 /*====== Footer Section ======*/
 
