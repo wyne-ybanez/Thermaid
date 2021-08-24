@@ -461,6 +461,7 @@ footer .col {
     }
 
     .about-images img {
+        position: absolute;
         height: 300px;
         width: auto;
         right: 4rem;
@@ -468,7 +469,6 @@ footer .col {
 
     .back-pain-img {
         left: 35px;
-        top: 48rem;
         padding-top: 0;
     }
 
@@ -518,50 +518,3 @@ footer .col {
         margin-top: 2rem;
     }
 }
-
-/* Large Devices */
-/* @media (min-width: 1400px) {
-    .back-pain-img {
-        left: 50%;
-        top: 118%;
-        transform: translate(-50%, -50%);
-    }
-} */
-
-/* @media (min-width: 1600px) {
-    .back-pain-img {
-        left: 50%;
-        top: 130%;
-        transform: translate(-50%, -50%);
-    }
-
-    .tooltip-top { 
-        position: inherit;
-        bottom: 20.7rem;
-        left: 54rem;
-    }
-    
-    .tooltip-left {
-        position: inherit;
-        bottom: 9.7rem;
-        left: 49.8rem;
-    }
-    
-    .tooltip-right {
-        position: inherit;
-        bottom: 10.2rem;
-        left: 61rem;
-    }
-    
-    .tooltip-middle {
-        position: inherit;
-        bottom: 4rem;
-        left: 55.8rem;
-    }
-    
-    .tooltip-bottom {
-        position: inherit;
-        top: 1rem;
-        left: 56rem;
-    }
-} */
