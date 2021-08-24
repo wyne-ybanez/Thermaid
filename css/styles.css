@@ -56,6 +56,11 @@ html, body {
 .tooltip.show {
     opacity: 1;
 }
+
+span .break {
+    display: block;
+}
+
 /*====== Hover Effect ======*/
 .hvr-underline-from-center {
     display: inline-block;
@@ -358,8 +363,12 @@ footer .col {
     .container-fluid {
         padding: 0 1rem;
     }
+
+    span .break {
+        display: auto;
+    }
     
-    /* Navbar */
+    /*=== Navbar ===*/
     .navbar {
         padding: 0rem 0rem;
     }
@@ -397,19 +406,55 @@ footer .col {
         color: white;
     }
 
+    /*=== Hero Section ===*/
+
+    #hero {
+        padding-bottom: 3.3rem;
+    }
+
+    .hero-heading {
+        font-size: 2.5rem;
+    }
+
+    .hero-logo img {
+        display: none;
+    }
+
+    .hero-text {
+        padding: 8rem 0 0 0;
+    }
+
+    .carousel-item {
+        height: 180px;
+    }
+
     /* About Section */
 
+    .heading-padding {
+        padding-top: 4rem;
+    }
+
+    .about-images {
+        margin-left: 0!important;
+    }
+
     .about-images img {
-        position: relative;
-        height: 50px;
-        width: 50px;
+        height: 300px;
+        width: auto;
+        right: 4rem;
     }
 
     .back-pain-img {
-        left: auto;
+        left: 35px;
+        top: 53rem;
+        padding-top: 0;
     }
 
     .footer .col {
         height: auto;
+    }
+
+    #About-section .break {
+        display: block;
     }
 }
