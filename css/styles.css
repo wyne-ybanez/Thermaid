@@ -258,21 +258,24 @@ html, body {
     padding-left: 1rem;
  }
 
-/* Top Tooltip */
+/* Top & Bottom Tooltip */
 
-.tooltip-caption-top {
+.tooltip-caption-top,
+.tooltip-caption-bottom {
     height: 120px;
     width: 315px;
     transform: translate(-3.5rem, 0.7rem);
 }
 
-.caption-title-top {
+.caption-title-top,
+.caption-title-bottom {
     padding-top: 1rem;
     padding-left: 3.8rem;
     font-weight: 500;
 }
 
-.caption-text-top {
+.caption-text-top,
+.caption-text-bottom {
     transform: translate(-1px, -1rem);
     padding-left: 3.8rem;
     padding-bottom: 1.5rem;
@@ -327,7 +330,6 @@ html, body {
 .hover-img.middle {
     transform: translate(-20px,80px);
 } 
-
 
 /*====== Footer Section ======*/
 
