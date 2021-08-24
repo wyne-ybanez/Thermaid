@@ -350,7 +350,7 @@ footer .col {
 }
 
 .angel-logo {
-    padding: 2rem 2rem;
+    padding: 0rem 2rem;
 }
 
 /*====== Mobiles ======*/
@@ -428,7 +428,15 @@ footer .col {
         height: 180px;
     }
 
-    /* About Section */
+    /*=== About Section ===*/
+
+    #About-section {
+        padding-bottom: 3rem;
+    }
+
+    #About-section .break {
+        display: block;
+    }
 
     .heading-padding {
         padding-top: 4rem;
@@ -436,6 +444,7 @@ footer .col {
 
     .about-images {
         margin-left: 0!important;
+        padding-top: 0!important;
     }
 
     .about-images img {
@@ -446,15 +455,52 @@ footer .col {
 
     .back-pain-img {
         left: 35px;
-        top: 53rem;
+        top: 48rem;
         padding-top: 0;
     }
 
-    .footer .col {
+    .about-cards {
+        padding-top: 8rem;
+    }
+
+    .about-cards-1 {
+        padding-top: 8rem;
+    }
+
+    .about-card-img {
+        height: 120px;
+    }
+
+    .about-card-img img{
+        width: 150px;
+        height: 150px;
+        position: relative;
+        left: 5.2rem; 
+        bottom: 4rem;
+    }
+
+    .about-card-text {
+        width: 100%;
         height: auto;
     }
 
-    #About-section .break {
-        display: block;
+    /*=== Footer ===*/
+
+    .footer .col {
+        height: auto;
+        padding: 0 5%;
+    }
+
+    .copyright {
+        padding-left: 1rem;
+    }
+
+    footer .container-fluid {
+        padding: 0 0;
+    }
+
+    .angel-logo {
+        height: 35px;
+        margin-top: 2rem;
     }
 }
