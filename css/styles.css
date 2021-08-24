@@ -319,7 +319,7 @@ span .break {
 .tooltip-caption-right { 
     width: auto; 
     padding-left: 5rem;
-    transform:translate(-165px, 70px);
+    transform:translate(140px, -60px);
 }
 
 .tooltip-caption-right p {
@@ -329,7 +329,7 @@ span .break {
 }
 
 .hover-img.right{
-    transform: translate(-100px,60px);
+    transform: translate(200px,-75px);
 }
 
 /* Middle Tooltip */
