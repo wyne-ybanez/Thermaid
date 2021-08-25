@@ -17,3 +17,9 @@ Results: ![CSS Validator Results](assets/validators/css.png)
 JS Validator: https://beautifytools.com/javascript-validator.php
 <br>
 Results: ![JS Validator Results](assets/validators/js.png)
+
+<hr>
+
+Lighthouse: 
+<br>
+Results: ![Lighthouse](assets/validators/lighthouse.png)
