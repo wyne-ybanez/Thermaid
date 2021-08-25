@@ -34,14 +34,14 @@ function NavBarChange(viewport) {
             if (document.body.scrollTop >= 40 || document.documentElement.scrollTop >= 40) {
                 navbar.classList.add('scrolled');
                 navlinks.classList.add('scrolled');
-                navbarToggler .classList.add('text-red')
+                navbarToggler .classList.add('text-red');
                 Logo.innerHTML = `<img src="assets/img/logo-red.png" id="logoRed" alt="ThermAid Red Logo">`;
             } 
             else {
                 navbar.classList.remove('scrolled');
                 navlinks.classList.remove('scrolled');
                 Logo.innerHTML = `<img src="assets/img/logo-white.png" id="logoWhite" alt="ThermAid White Logo">`;
-            };
+            }
         };
     }
 }
