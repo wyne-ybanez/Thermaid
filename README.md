@@ -2,7 +2,6 @@
 
 #### Deployed project: https://boring-kepler-120c43.netlify.app/
 
-<<<<<<< HEAD
 HTML Validator: https://validator.w3.org/nu/?doc=https%3A%2F%2Fboring-kepler-120c43.netlify.app%2F
 <br>
 Results: ![HTML Validator Results](assets/validators/html.png)
@@ -44,4 +43,4 @@ Results: ![Lighthouse](assets/validators/lighthouse.png)
 <hr>
 
 <strong>Lighthouse Results:</strong> ![Lighthouse](assets/validators/lighthouse.png)
->>>>>>> b3746b6d3d3d7647c1b881b35e6276afe0950fcb
+
