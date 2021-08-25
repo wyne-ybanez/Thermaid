@@ -207,6 +207,7 @@ span .break {
 
 .about-images {
     max-height: 700px;
+    height: auto;
 }
 
 .heat-wave-img {
@@ -317,19 +318,17 @@ span .break {
 /* Right Tooltip */
 
 .tooltip-caption-right { 
-    width: auto; 
     padding-left: 5rem;
-    transform:translate(140px, -60px);
+    transform:translate(-165px, 70px);
 }
 
 .tooltip-caption-right p {
-    height: auto;
     width: 250px;
     padding-right: 0.5rem;
 }
 
 .hover-img.right{
-    transform: translate(200px,-75px);
+    transform:translate(-100px, 60px);
 }
 
 /* Middle Tooltip */
