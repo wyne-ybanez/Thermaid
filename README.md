@@ -20,6 +20,4 @@ Results: ![JS Validator Results](assets/validators/js.png)
 
 <hr>
 
-Lighthouse: 
-<br>
-Results: ![Lighthouse](assets/validators/lighthouse.png)
+Lighthouse Results: ![Lighthouse](assets/validators/lighthouse.png)
