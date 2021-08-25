@@ -2,22 +2,22 @@
 
 #### Deployed project: https://boring-kepler-120c43.netlify.app/
 
-HTML Validator: https://validator.w3.org/nu/?doc=https%3A%2F%2Fboring-kepler-120c43.netlify.app%2F
+<strong>HTML Validator:</strong> https://validator.w3.org/nu/?doc=https%3A%2F%2Fboring-kepler-120c43.netlify.app%2F
 <br>
-Results: ![HTML Validator Results](assets/validators/html.png)
+<strong>Results:</strong> ![HTML Validator Results](assets/validators/html.png)
 
 <hr>
 
-CSS Validator: https://jigsaw.w3.org/css-validator/validator
+<strong>CSS Validator:</strong> https://jigsaw.w3.org/css-validator/validator
 <br>
-Results: ![CSS Validator Results](assets/validators/css.png)
+<strong>Results:</strong> ![CSS Validator Results](assets/validators/css.png)
 
 <hr>
 
-JS Validator: https://beautifytools.com/javascript-validator.php
+<strong>JS Validator:</strong> https://beautifytools.com/javascript-validator.php
 <br>
-Results: ![JS Validator Results](assets/validators/js.png)
+<strong>Results:</strong> ![JS Validator Results](assets/validators/js.png)
 
 <hr>
 
-Lighthouse Results: ![Lighthouse](assets/validators/lighthouse.png)
+<strong>Lighthouse Results:</strong> ![Lighthouse](assets/validators/lighthouse.png)
