@@ -319,7 +319,7 @@ span .break {
 
 .tooltip-caption-right { 
     padding-left: 5rem;
-    transform:translate(-165px, 70px);
+    transform:translate(125px, 255px);
 }
 
 .tooltip-caption-right p {
@@ -328,7 +328,7 @@ span .break {
 }
 
 .hover-img.right{
-    transform:translate(-100px, 60px);
+    transform:translate(190px, 240px);
 }
 
 /* Middle Tooltip */
@@ -368,16 +368,13 @@ footer .col {
 /*====== Mobiles ======*/
 
 @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
+  and (min-width: 320px) 
+  and (max-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
     .container-fluid {
         padding: 0 1rem;
-    }
-
-    span .break {
-        display: auto;
+        overflow-x: hidden;
     }
     
     /*=== Navbar ===*/
@@ -416,6 +413,7 @@ footer .col {
 
     hr {
         color: white;
+        height: 4px !important;
     }
 
     /*=== Hero Section ===*/
@@ -500,7 +498,7 @@ footer .col {
 
     .footer .col {
         height: auto;
-        padding: 0 5%;
+        padding: 0 7%;
     }
 
     footer .container-fluid {
@@ -509,7 +507,7 @@ footer .col {
 
     .footer p,
     .footer .links {
-        padding-left: 1rem;
+        white-space: nowrap;
     }
 
     .angel-logo {
@@ -568,4 +566,20 @@ footer .col {
         bottom: 5rem;
         right: 7rem;
     }  
+
+    /* Right Tooltip */
+
+    .tooltip-caption-right { 
+        padding-left: 5rem;
+        transform:translate(-165px, 70px);
+    }
+
+    .tooltip-caption-right p {
+        width: 250px;
+        padding-right: 0.5rem;
+    }
+
+    .hover-img.right{
+        transform:translate(-100px, 60px);
+    }
 }

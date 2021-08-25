@@ -25,25 +25,25 @@
                 <a id="Logo" href="index.html">
                     <img src="assets/img/logo-white.png" alt="ThermAid Logo">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon text-light">
                         <i id="nav-icon" class="fa fa-bars"></i>
                     </span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end text-center" id="navbarToggleExternalContent">
+                <div class="collapse navbar-collapse justify-content-end text-center" id="navbarToggle">
                     <ul class="navbar-nav">
                         <li class="nav-item item-1 fw-bold"> 
                             <a class="nav-link hvr-underline-from-center" href="#">Home</a>
+                            <hr class="py-0 d-md-none d-sm-block">
                         </li>
-                        <hr class="py-0">
                         <li class="nav-item fw-bold">           
                             <a class="nav-link hvr-underline-from-center" data-after="products" href="#">Products</a>
+                            <hr class="py-0 d-md-none d-sm-block">
                         </li>
-                        <hr class="py-0">
                         <li class="nav-item fw-bold">            
                             <a class="nav-link hvr-underline-from-center" data-after="Heat-Therapy" href="#">Heat Therapy</a>
+                            <hr class="py-0 d-md-none d-sm-block">
                         </li>
-                        <hr class="py-0">
                         <li class="nav-item fw-bold">   
                             <a class="nav-link hvr-underline-from-center" data-after="FAQ" href="#">FAQ</a>           
                         </li>
@@ -90,9 +90,9 @@
                                     </p>
                                 </div>
                                 <div class="carousel-indicators float-start">
-                                    <button class="rounded-circle active mx-1" type="radio" data-bs-target="#carousel" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
-                                    <button class="rounded-circle mx-1" type="radio" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                    <button class="rounded-circle mx-1" type="radio" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    <button class="rounded-circle active mx-1" data-bs-target="#carousel" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+                                    <button class="rounded-circle mx-1" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button class="rounded-circle mx-1" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                 </div>
                             </div>
                         </div>
@@ -254,7 +254,7 @@
                         <div class="d-flex flex-col"> 
                             <div class="about-card-text px-3 bg-whitesmoke box-shadow">
                                 <div class="about-card-img">
-                                    <img src="assets/img/fire.png"> 
+                                    <img src="assets/img/fire.png" alt="fire image"> 
                                 </div>
                                 <p class="text-center text-red  fw-bold">
                                     Long lasting heat
@@ -274,7 +274,7 @@
                         <div class="d-flex flex-col"> 
                             <div class="about-card-text px-3 bg-whitesmoke box-shadow">
                                 <div class="about-card-img">
-                                    <img src="assets/img/heat.png"> 
+                                    <img src="assets/img/heat.png" alt="heat image"> 
                                 </div>
                                 <p class="text-center text-red  fw-bold">
                                     ThermAid® Patented <br>
@@ -297,7 +297,7 @@
                         <div class="d-flex flex-col"> 
                             <div class="about-card-text px-3 bg-whitesmoke box-shadow">
                                 <div class="about-card-img">
-                                    <img src="assets/img/brain.png"> 
+                                    <img src="assets/img/brain.png" alt="head image"> 
                                 </div>
                                 <p class="text-center text-red  fw-bold">
                                     Pain relieving
@@ -313,7 +313,7 @@
                         <div class="d-flex flex-col"> 
                             <div class="about-card-text px-3 bg-whitesmoke box-shadow">
                                 <div class="about-card-img">
-                                    <img src="assets/img/heart.png"> 
+                                    <img src="assets/img/heart.png" alt="heart image"> 
                                 </div>
                                 <p class="text-center text-red fw-bold">
                                     Increased blood <br>
@@ -336,7 +336,7 @@
                         <div class="d-flex flex-col"> 
                             <div class="about-card-text px-3 bg-whitesmoke box-shadow">
                                 <div class="about-card-img">
-                                    <img src="assets/img/back.png"> 
+                                    <img src="assets/img/back.png" alt="back image"> 
                                 </div>
                                 <p class="text-center text-red fw-bold">
                                     Muscles relaxing
@@ -362,11 +362,13 @@
 
                     <!-- Mobile Footer -->
                     <div class="mobile-footer d-sm-block d-md-none">
-                        <div class="links text-start float-end d-flex">
-                            <a href="" class="ms-1 me-2 text-light">Terms & Conditions</a>
-                            <a href="" class="mx-2 text-light">Privacy Policy</a>
-                            <a href="" class="mx-2 text-light">Cookie Policy</a>
+                        <div class="links text-start d-flex flex-row">
+                            <a href="" class="text-light">Terms & Conditions</a>
+                            <a href="" class="mx-5 text-light">Privacy Policy</a>
                         </div>
+
+                        <a href="" class="text-light">Cookie Policy</a>
+
                         <div class="text-start d-flex flex-row text-light float-start">
                             <p class="copyright">Copyright © 2021 Angel Pharma</p>
                             <img class ="angel-logo" 
